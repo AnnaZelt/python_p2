@@ -103,7 +103,7 @@ def update():
             row[Fields.COLOR.value] = input("Enter the new color: ")
             row[Fields.TYPE.value] = input("Enter the new type: ")
             row[Fields.MODEL.value] = input("Enter the new model: ")
-            printPink("Car updated.")
+            printPink("Item updated.")
             return
 
 # def update():
@@ -154,7 +154,7 @@ def search():
 
 def printPink(skk): print("\033[95m {}\033[00m" .format(skk))
 
-#start and end point - it loads the csv file with the start
+#start and end point - it loads the csv file ar the start
 if __name__ == "__main__":
     load()
     menu()
